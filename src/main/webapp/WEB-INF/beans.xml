@@ -22,5 +22,9 @@
 
 	<jaxws:endpoint id="hello"
 		implementor="org.chamerling.heroku.service.HelloServiceImpl" address="/HelloService" />
+		
+		
+	<jaxws:endpoint id="sumar"
+		implementor="org.chamerling.heroku.service.SumaServiceImpl" address="/SumaService" />
 
 </beans>
