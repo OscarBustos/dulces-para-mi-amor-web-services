@@ -1,4 +1,4 @@
-package org.chamerling.heroku.service;
+package co.edu.udistrital.service;
 
 import javax.jws.WebParam;
 import javax.jws.WebService;

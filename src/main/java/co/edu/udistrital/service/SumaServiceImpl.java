@@ -1,4 +1,4 @@
-package org.chamerling.heroku.service;
+package co.edu.udistrital.service;
 
 public class SumaServiceImpl implements SumaService{
 
