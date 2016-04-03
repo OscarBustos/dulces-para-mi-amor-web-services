@@ -6,7 +6,7 @@ import co.edu.udistrital.service.utils.Response;
 public class RegistrarUsuarioImpl implements RegistrarUsuario{
 
 	@Override
-	public Response registrar(String clientId, String nombre, String correo, String password) {
+	public Response registrarUsuario(String clientId, String nombre, String correo, String password) {
             Response response = new Response();
 		if(nombre == null){
 			response.setCodigo(0);

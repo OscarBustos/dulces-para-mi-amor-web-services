@@ -10,5 +10,5 @@ import javax.jws.WebResult;
 @WebService
 public interface AutenticarUsuario {
 	  @WebResult(name="response")	
-	  public Response autenticar(@WebParam(name="clientId") String clientId,@WebParam(name="correo") String correo, @WebParam(name="correo")  String password );
+	  public Response autenticarUsuario(@WebParam(name="clientId") String clientId,@WebParam(name="correo") String correo, @WebParam(name="correo")  String password );
 }

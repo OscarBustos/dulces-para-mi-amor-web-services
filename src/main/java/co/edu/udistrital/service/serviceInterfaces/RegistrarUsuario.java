@@ -10,5 +10,5 @@ import javax.jws.WebResult;
 @WebService
 public interface RegistrarUsuario {
 	  @WebResult(name="response")	
-	  public Response registrar(@WebParam(name="nombre") String  clientId, @WebParam(name="nombre") String nombre,@WebParam(name="correo") String correo, @WebParam(name="correo")  String password );
+	  public Response registrarUsuario(@WebParam(name="nombre") String  clientId, @WebParam(name="nombre") String nombre,@WebParam(name="correo") String correo, @WebParam(name="correo")  String password );
 }

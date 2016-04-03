@@ -6,7 +6,7 @@ import co.edu.udistrital.service.utils.Response;
 public class AutenticarUsuarioImpl implements AutenticarUsuario{
 
 	@Override
-	public Response autenticar(String clientId ,String correo, String password) {
+	public Response autenticarUsuario(String clientId ,String correo, String password) {
 	Response response = new Response();
 		
 		if(correo == null){
