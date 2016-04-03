@@ -20,7 +20,18 @@
 	<import resource="classpath:META-INF/cxf/cxf.xml" />
 	<import resource="classpath:META-INF/cxf/cxf-extension-http.xml" />
 
-	<jaxws:endpoint id="sumar"
-		implementor="co.edu.udistrital.service.SumaServiceImpl" address="/SumaService" />
-
+	<jaxws:endpoint id="AutenticarUsuario"
+		implementor="co.edu.udistrital.service.servicesImpl.AutenticarUsuarioImpl" address="/AutenticarUsuario" />
+   
+   <jaxws:endpoint id="RegistrarUsuario"
+		implementor="co.edu.udistrital.service.servicesImpl.RegistrarUsuarioImpl" address="/RegistrarUsuario" />
+   
+   
+   <jaxws:endpoint id="RegistrarAmor"
+		implementor="co.edu.udistrital.service.servicesImpl.RegistrarAmorImpl" address="/RegistrarAmor" />
+   
+   
+   <jaxws:endpoint id="ValidarAmor"
+		implementor="co.edu.udistrital.service.servicesImpl.ValidarAmorImpl" address="/ValidarAmor" />
+   
 </beans>
