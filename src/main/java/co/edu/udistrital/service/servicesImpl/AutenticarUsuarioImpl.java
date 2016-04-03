@@ -27,7 +27,7 @@ public class AutenticarUsuarioImpl implements AutenticarUsuario{
 	
 		}else{
 			response.setCodigo(0);
-			response.setMensaje("Usuario o password no válidos");
+			response.setMensaje("Usuario o password no validos");
 			
 		}
 		
