@@ -1,6 +1,8 @@
 package co.edu.udistrital.service.utils;
 
-public class Response {
+import java.io.Serializable;
+
+public class Response implements Serializable{
 	private int codigo;
 	private String mensaje ;
 	private String token;
