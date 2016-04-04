@@ -1,4 +1,4 @@
-package co.edu.udistrital.service.serviceInterfaces;
+package co.edu.udistrital.service.servicesImpl;
 
 
 import javax.jws.WebParam;

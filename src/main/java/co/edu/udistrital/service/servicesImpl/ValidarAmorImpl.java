@@ -1,6 +1,5 @@
 package co.edu.udistrital.service.servicesImpl;
 
-import co.edu.udistrital.service.serviceInterfaces.ValidarAmor;
 import co.edu.udistrital.service.utils.Response;
 
 public class ValidarAmorImpl implements ValidarAmor {
