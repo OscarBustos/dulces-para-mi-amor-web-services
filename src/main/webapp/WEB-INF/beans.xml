@@ -20,18 +20,18 @@
 	<import resource="classpath:META-INF/cxf/cxf.xml" />
 	<import resource="classpath:META-INF/cxf/cxf-extension-http.xml" />
 
-	<jaxws:endpoint id="AutenticarUsuario"
+	<jaxws:endpoint id="autenticarUsuario"
 		implementor="co.edu.udistrital.service.servicesImpl.AutenticarUsuarioImpl" address="/AutenticarUsuario" />
    
-   <jaxws:endpoint id="RegistrarUsuario"
+   <jaxws:endpoint id="registrarUsuario"
 		implementor="co.edu.udistrital.service.servicesImpl.RegistrarUsuarioImpl" address="/RegistrarUsuario" />
    
    
-   <jaxws:endpoint id="RegistrarAmor"
+   <jaxws:endpoint id="registrarAmor"
 		implementor="co.edu.udistrital.service.servicesImpl.RegistrarAmorImpl" address="/RegistrarAmor" />
    
    
-   <jaxws:endpoint id="ValidarAmor"
+   <jaxws:endpoint id="validar"
 		implementor="co.edu.udistrital.service.servicesImpl.ValidarAmorImpl" address="/ValidarAmor" />
    
 </beans>
