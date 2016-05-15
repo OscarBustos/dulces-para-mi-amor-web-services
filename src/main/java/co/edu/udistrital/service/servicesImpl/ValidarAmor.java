@@ -1,6 +1,9 @@
 package co.edu.udistrital.service.servicesImpl;
 
 
+import co.edu.udistrital.service.model.OEValidarAmor;
+import co.edu.udistrital.service.model.OSValidarAmor;
+
 import javax.jws.WebParam;
 import javax.jws.WebService;
 
@@ -10,5 +13,5 @@ import javax.jws.WebResult;
 @WebService
 public interface ValidarAmor {
 	  @WebResult(name="response")	
-	  public Response validar(@WebParam(name="token") String token, @WebParam(name="foto1") String foto1, @WebParam(name="foto2")  String foto2 );
+	  public OSValidarAmor validar(@WebParam(name="u") OEValidarAmor oeValidarAmor );
 }
